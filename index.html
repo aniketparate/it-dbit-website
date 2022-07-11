@@ -10,78 +10,109 @@
     <title>IT</title>
 </head>
 <body>
-    <header>
-          <nav class="navbar bg-light fixed-top">
-              <div class="container-fluid">
-                <img src="https://picsum.photos/20" alt="" srcset="">
-                <ul class="m-0 pe-3">
-                    <li class="nav-item list-inline-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                      <a class="nav-link">Disabled</a>
-                    </li>
-                </ul>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header justify-content-end">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-        </nav>
+
+  <div class="row">
+    <img src="/assets/final.jpg" alt="" srcset="">
+  </div>
+  
+    <header class="sticky-top" style="z-index: 1;">
+      <nav class="navbar navbar-expand-lg bg-light container-fluid justify-content-between">
+        <span class="navbar-brand mb-0 h1 ms-3">IT DBIT</span>
+        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header justify-content-end">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item text-center">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#">RECOGNITION</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#">STUDENTS</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#">CO-CURRICULAR ACTIVITIES</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#">PLACEMENT & INTERNSHIP</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#">LINKS</a>
+              </li>
+            </ul>
+          </div>
+        </div>        
+      </nav>
     </header>
     
     <main class="container-fluid p-0">
-        <div class="row">
-            <img src="https://picsum.photos/300/70
-            " alt="" srcset="">
-        </div>
-        <div class="row">
-            <div class="col-md-8 justify-content-center">
-                <div class="row border border-2 border-primary my-3 mx-2" style="height: 350px;">Carousel</div>
-                <div class="row border border-2 border-primary my-3 mx-2" style="height: 800px;">
-                    <h1>lorem</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a et quas quo mollitia error reprehenderit sunt vero harum sed? Sapiente, eos. Repudiandae dolor unde architecto autem soluta. Vero, ipsum. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8 p-0 justify-content-center">
+                <div class="row border rounded my-3 mx-4 py-3 bg-light">
+                  <div id="carouselExampleIndicators" class="carousel slide justify-content-center" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://picsum.photos/300/100" class="d-block w-100" style="object-fit: cover;" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://picsum.photos/300/100" class="d-block w-100" style="object-fit: cover;" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://picsum.photos/300/100" class="d-block w-100" style="object-fit: cover;" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden"></span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="row border rounded bg-light my-3 mx-4" style="height: 800px;">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-9">
+
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 justify-content-center">
-                <div class="container sticky-top pt-5">
-                    <div class="row border border-2 border-primary my-3 mx-2" style="height: 300px;">News and Events</div>
-                    <div class="row border border-2 border-primary my-3 mx-2" style="height: 300px;">Flagship events</div>
+
+            <div class="col-md-4 p-0 justify-content-center">
+                <div class="container sticky-top py-3" style="z-index: 0">
+                    <div class="row border rounded bg-light mx-3 mt-5 justify-content-center">
+                      <h3 class="py-3 text-center">News and Events</h3>
+                      <div class="scroll-container mb-5">
+                        <div class="scroll-text text-center">
+                          <a href="" target="" class="nav-link">News 1</a>
+                          <a href="" class="nav-link">News 2</a>
+                          <a href="" class="nav-link">News 3</a>
+                          <a href="" target="" class="nav-link">News 1</a>
+                          <a href="" class="nav-link">News 2</a>
+                          <a href="" class="nav-link">News 3</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row border rounded bg-light mt-3 mx-3 justify-content-center" style="height: 300px;">Flagship events</div>
                 </div>
-                
             </div>
         </div>
     </main>
@@ -130,5 +161,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+  
+  </body>
 </html>
