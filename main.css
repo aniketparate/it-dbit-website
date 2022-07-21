@@ -31,3 +31,9 @@
       transform: translateY(-100%);
     }
 }
+
+@media (max-width: 630px){
+    .nav-hide{
+        display: none;
+    }
+}
