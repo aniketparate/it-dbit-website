@@ -14,6 +14,31 @@
     animation-play-state: paused;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    z-index: 0;
+}
+
+.nav-item > .dropdown-menu{
+    display: none;
+}
+
+.nav-item:hover > .dropdown-menu{
+    display: block;
+}
+
+.dropend > .dropdown-menu{
+    display: none;
+}
+
+.dropend:hover > .dropdown-menu{
+    display: block;
+    margin-left: 0rem;
+}
+
+.dropend:hover > .dropdown-item{
+    cursor: pointer;
+}
+
 @-webkit-keyframes my-animation {
     from { -webkit-transform: translateY(100%); }
     to { -webkit-transform: translateY(-100%); }
@@ -35,5 +60,21 @@
 @media (max-width: 630px){
     .nav-hide{
         display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .dropdown-menu{
+        text-align: center;
+        /* width: fit-content; */
+    }
+
+    .dropend > .dropdown-toggle::after{
+        margin-left: 0em;
+        vertical-align: 0.25em;
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
     }
 }
