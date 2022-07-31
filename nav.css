@@ -1,7 +1,3 @@
-:root{
-    --primary_color : #119100;
-}
-
 
 .dropend > .dropdown-toggle::after{
     position: absolute;
