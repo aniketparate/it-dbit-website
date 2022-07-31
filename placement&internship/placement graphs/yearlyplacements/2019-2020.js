@@ -12,7 +12,6 @@ function drawChart() {
 
   var options = {
     title: 'My Daily Activities',
-    is3D: true,
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('2019-2020-yearly'));
