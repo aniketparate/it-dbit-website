@@ -1,5 +1,8 @@
+:root{
+    --primary_color : #119100;
+}
 
-.bgcol_pri{
+.navbar{
     background-color: var(--primary_color);
 }
 
