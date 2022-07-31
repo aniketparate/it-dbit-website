@@ -1,0 +1,35 @@
+h2{
+    color: black;
+    text-align: center;
+}
+
+.main-head{
+    background-color: #eeeeee;
+    padding: 2rem;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.panel-head{
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: 10px;
+    border-color: black;
+    padding: 1rem;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
