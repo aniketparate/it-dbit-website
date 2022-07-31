@@ -1,3 +1,10 @@
+:root{
+    --primary_color : #119100;
+}
+
+.navbar{
+    background-color: var(--primary_color);
+}
 
 .dropend > .dropdown-toggle::after{
     position: absolute;
