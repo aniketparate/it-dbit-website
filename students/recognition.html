@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <title>Placement Records</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar bgcol_pri navbar-expand-sm nav-hide">
+        <div class="container-fluid justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">DBIT Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Parent Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Alumni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Moodle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-Learn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DBCL Drive</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <img class="p-0" src="/assets/final.jpg" alt="" srcset="" />
+    </div>
+  </div>
+
+  <header class="sticky-top" style="z-index: 1">
+    <nav class="navbar navbar-expand-xl bg-light container-fluid justify-content-between">
+      <span class="navbar-brand mb-0 h1 ms-3">IT DBIT</span>
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header justify-content-end">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ACADEMICS
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Academic Calender</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Exam Timetable</a></li>
+                <li><a class="dropdown-item" href="#">Timetable</a></li>
+                <li class="dropend drop-down">
+                  <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Syllabus
+                  </a>
+                  <ul class="dropdown-menu sub-menu">
+                    <li class="dropend drop-down">
+                      <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Second Year
+                      </a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">SEIT-C Scheme</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">SEIT-CBCGS</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropend drop-down">
+                      <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Third Year
+                      </a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">TEIT-CBCS</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">TEIT-C Scheme</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropend drop-down">
+                      <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Final Year
+                      </a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">BEIT-CBCS</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Academic Advisory Board</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Faculty Profile</a></li>
+              </ul>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">RECOGNITION</a>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                STUDENTS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Undergraduate Projects</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Recognition</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                CO-CURRICULAR ACTIVITIES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                <li class="dropend drop-down">
+                  <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Events
+                  </a>
+                  <ul class="dropdown-menu sub-menu">
+                    <li>
+                      <a class="dropdown-item" href="">Game Of Codes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">Mumbai Hackathon</a>
+                    </li>
+                    <li><a class="dropdown-item" href="">Innovex</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">CSI</a></li>
+                <li class="dropend drop-down">
+                  <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Student Club
+                  </a>
+                  <ul class="dropdown-menu sub-menu">
+                    <li><a class="dropdown-item" href="#">AI Club</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Web Development</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PLACEMENT & INTERNSHIP
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Internship Record</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Placement Record</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="conainer-fluid">
+    <div class="row px-5">
+      <div class="row justify-content-center text-center p-3">
+        <h1>Smart India Hackathon</h1>
+        <p>
+          The AICTE in association with MHRD & NIC have planned to host SMART
+          INDIA HACKATHON 2017, world biggest digital movement. The prime
+          objective was to involvetechnology students in the digital
+          revolution of India. The Government of India in association with29
+          ministries have proposed around 598 problem statements. The college
+          team, consisting of 6 member each with atleast 1 female candidate,
+          have to choose the problem statement and provide the solution. The
+          Hackthon was a grand success with 36 Hrs non-stop digital product
+          devlopment competition held on 1st and 2nd April, 2017. Around 40+
+          Thousand technology students and 2100+ technological institute
+          participated in this grand hackathon.
+        </p>
+      </div>
+      <div class="row justify-content-center text-center p-1 fw-bold">
+        <p>2017-2018</p>
+      </div>
+      <div class="col-md-4">
+        <table class="table table-hover table-responsive shadow-lg" style="border-collapse: collapse" border="0">
+          <tbody>
+            <tr class="table-dark">
+              <td colspan="2">
+                <p style="text-align: center"><strong>Team 1</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><strong>Award:</strong></p>
+              </td>
+              <td>
+                <p><strong>Persistent Innovation Award</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Team Name:</strong></td>
+              <td>
+                <p>Irrational Reals</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Category:</strong></td>
+              <td>
+                <p>Ministry (Government of Goa)</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Statement:</strong></td>
+              <td>Full Immunisation Coverage</td>
+            </tr>
+            <tr>
+              <td><strong>Name Of Students:</strong></td>
+              <td>
+                <p>Tanvi Pandit</p>
+                <p>Aditya Hase</p>
+                <p>Arnab Sanyal</p>
+                <p>Shivam Mishra</p>
+                <p>Omkar Kadam</p>
+                <p>Premlata Pawar</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Mentors :</strong></td>
+              <td>
+                <p>Prasad Padalkar</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Venue:</strong></td>
+              <td>
+                <p>Nagpur</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Winning Price:</strong></td>
+              <td>
+                <p>₹ 10000/-</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <table class="table table-hover table-responsive shadow-lg" style="border-collapse: collapse" border="0">
+          <tbody>
+            <tr class="table-dark">
+              <td colspan="2">
+                <p style="text-align: center"><strong>Team 2</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><strong>Award:</strong></p>
+              </td>
+              <td>
+                <p><strong>Honorable mention</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Team Name:</strong></td>
+              <td>
+                <p>Ischyro</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Category:</strong></td>
+              <td>
+                <p>Ministry of Women and Child Development</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Statement:</strong></td>
+              <td>
+                C2C Crowd Sourcing Online Platform for Women Empowerment
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Name Of Students:</strong></td>
+              <td>
+                <p>Meldon Dias</p>
+                <p>Kevin Lobo</p>
+                <p>Gyanendra Maurya</p>
+                <p>Yash Agarwal</p>
+                <p>Prerna Singh</p>
+                <p>Renita Lobo</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Mentors :</strong></td>
+              <td>
+                <p>Tayyabali Sayyad</p>
+                <p>Diplav Dongre</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Venue:</strong></td>
+              <td>
+                <p>Bhopal</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Winning Price:</strong></td>
+              <td>
+                <p>-</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <table class="table table-hover table-responsive shadow-lg" style="border-collapse: collapse" border="0">
+          <tbody>
+            <tr class="table-dark">
+              <td colspan="2">
+                <p style="text-align: center"><strong>Team 3</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><strong>Recognition:</strong></p>
+              </td>
+              <td>
+                <p><strong>Selected for SIH Grand Finale</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Team Name:</strong></td>
+              <td>
+                <p>Kodrey</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Category:</strong></td>
+              <td>
+                <p>Ministry of Sikkim</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Statement:</strong></td>
+              <td>Intra-Department Messaging App</td>
+            </tr>
+            <tr>
+              <td><strong>Name Of Students:</strong></td>
+              <td>
+                <p>Roshan James</p>
+                <p>Chaitainyakrishna Dukkipaty</p>
+                <p>Shadrak Gurupnor</p>
+                <p>Kyle Lobo</p>
+                <p>Pratik Nerurkar</p>
+                <p>Calden Rodrigues</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Mentors :</strong></td>
+              <td>
+                <p>Manu Dwivedi</p>
+                <p>Akash Arun</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Venue:</strong></td>
+              <td>
+                <p>Hyderabad</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Winning Price:</strong></td>
+              <td>
+                <p>-</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row justify-content-center text-center p-1 fw-bold">
+        <p>2017-2018</p>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-hover table-responsive shadow-lg" style="border-collapse: collapse" border="0">
+          <tbody>
+            <tr class="table-dark">
+              <td colspan="2">
+                <p style="text-align: center"><strong>Team 1</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><strong>Award:</strong></p>
+              </td>
+              <td>
+                <p><strong>1st Runner Up</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Team Name:</strong></td>
+              <td>
+                <p>DBIT Vikings&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Category:</strong></td>
+              <td>
+                <p>Environment Forests and Climate Change</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Statement:</strong></td>
+              <td>
+                Evaluation of Health Hazards and Managementof Electronic Waste
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Name Of Students:</strong></td>
+              <td>
+                <p>Deepesh Gupta</p>
+                <p>Krupal Jadhav</p>
+                <p>Manish Jain</p>
+                <p>Deven Bhalerao</p>
+                <p>Likitha Shettigar</p>
+                <p>Atashi Khatua</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Mentors :</strong></td>
+              <td>
+                <p>Nilesh Ghavate</p>
+                <p>Tayyabali Sayyad</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Venue:</strong></td>
+              <td>
+                <p>Coimbatore&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Winning Price:</strong></td>
+              <td>
+                <p>₹ 75000/-</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-hover table-responsive shadow-lg" style="border-collapse: collapse" border="0">
+          <tbody>
+            <tr class="table-dark">
+              <td colspan="2">
+                <p style="text-align: center"><strong>Team 2</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><strong>Recognition:</strong></p>
+              </td>
+              <td>
+                <p><strong>Selected for SIH Grand Finale</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Team Name:</strong></td>
+              <td>
+                <p>TaskForce141</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Category:</strong></td>
+              <td>
+                <p>Department of Road Transport and Highway.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Problem Statement:</strong></td>
+              <td>Online Toll Payment System</td>
+            </tr>
+            <tr>
+              <td><strong>Name Of Students:</strong></td>
+              <td>
+                <p>Tanvi Pandit</p>
+                <p>Nalini Katiyar</p>
+                <p>Daksh Gupta</p>
+                <p>Amit Nijsure</p>
+                <p>Omkar Kadam</p>
+                <p>Arnab Sanyal</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Mentors :</strong></td>
+              <td>
+                <p>Neil Lasrado</p>
+                <p>Valmik Jangla</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Venue:</strong></td>
+              <td>
+                <p>Nagpur&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Winning Price:</strong></td>
+              <td>
+                <p>₹ 75000/-</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <div class="container bgcol_pri">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="text-muted">&copy; 2021 Company, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter" />
+            </svg></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram" />
+            </svg></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook" />
+            </svg></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- scripts start  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  <script src="nav.js"></script>
+  <!-- scripts end  -->
+</body>
+
+</html>

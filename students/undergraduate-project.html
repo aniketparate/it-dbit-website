@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Placement Records</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar bgcol_pri navbar-expand-sm nav-hide ">
+                <div class="container-fluid justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">DBIT Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parent Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Alumni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Moodle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">E-Learn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DBCL Drive</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <div class="row">
+            <img class="p-0" src="/assets/final.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+    <header class="sticky-top" style="z-index: 1;">
+        <nav class="navbar navbar-expand-xl bg-light container-fluid justify-content-between">
+            <span class="navbar-brand mb-0 h1 ms-3">IT DBIT</span>
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item text-center">
+                            <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ACADEMICS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Academic Calender</a></li>
+                                <li><a class="dropdown-item" href="#">Exam Timetable</a></li>
+                                <li><a class="dropdown-item" href="#">Timetable</a></li>
+                                <li class="dropend drop-down">
+                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Syllabus
+                                    </a>
+                                    <ul class="dropdown-menu sub-menu">
+                                        <li class="dropend drop-down">
+                                            <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Second Year
+                                            </a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a class="dropdown-item" href="#">SEIT-C Scheme</a></li>
+                                                <li><a class="dropdown-item" href="#">SEIT-CBCGS</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend drop-down">
+                                            <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Third Year
+                                            </a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a class="dropdown-item" href="#">TEIT-CBCS</a></li>
+                                                <li><a class="dropdown-item" href="#">TEIT-C Scheme</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend drop-down">
+                                            <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Final Year
+                                            </a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a class="dropdown-item" href="#">BEIT-CBCS</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Academic Advisory Board</a></li>
+                                <li><a class="dropdown-item" href="#">Faculty Profile</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">RECOGNITION</a>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                STUDENTS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Undergraduate Projects</a></li>
+                                <li><a class="dropdown-item" href="#">Recognition</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                CO-CURRICULAR ACTIVITIES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                                <li class="dropend drop-down">
+                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Events
+                                    </a>
+                                    <ul class="dropdown-menu sub-menu">
+                                        <li><a class="dropdown-item" href="">Game Of Codes</a></li>
+                                        <li><a class="dropdown-item" href="">Mumbai Hackathon</a></li>
+                                        <li><a class="dropdown-item" href="">Innovex</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">CSI</a></li>
+                                <li class="dropend drop-down">
+                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Student Club
+                                    </a>
+                                    <ul class="dropdown-menu sub-menu">
+                                        <li><a class="dropdown-item" href="#">AI Club</a></li>
+                                        <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PLACEMENT & INTERNSHIP
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Internship Record</a></li>
+                                <li><a class="dropdown-item" href="#">Placement Record</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="conainer-fluid">
+
+
+        <div class="row p-5 mt-5">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            2018 - 2019
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="p-1 ">
+                                        <h6>Project Co-ordinator: Ms. Sunantha</h6>
+                                    </div>
+
+                                    <table class="table">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">Grp No.</th>
+                                                <th scope="col">Name of Student</th>
+                                                <th scope="col">Title of Project</th>
+                                                <th scope="col">Project Guide</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Mizba Chaughule</li>
+                                                        <li> Sunny Nair</li>
+                                                        <li> Ronak Thakkar</li>
+                                                        <li> Franklin Felix</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Digital identity block chain</td>
+                                                <td>Ms. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Bilal Hungund</li>
+                                                        <li> Ghazi Owais</li>
+                                                        <li> Aabidi Sayyed Ali</li>
+                                                        <li> Anas Shaikh</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Automated system for Managment of Examination Processes</td>
+                                                <td>Ms. Pratibha Dumane </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Nabeel Sayed </li>
+                                                        <li> Harshad Vatsa</li>
+                                                        <li>Pooja Bhatkar</li>
+                                                        <li> Salome D’Souza</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Crop Advisor </td>
+                                                <td>Mr. Nilesh Ghavate</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Christine Polly </li>
+                                                        <li> Yash Agarwal</li>
+                                                        <li>Sanika bhat</li>
+                                                        <li> Sanika bhat</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Home Security Systems </td>
+                                                <td>Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Akshay Tiwari</li>
+                                                        <li> Ismail Sayyad</li>
+                                                        <li> Christen D'souza</li>
+                                                        <li> Rayvonne Gonsalves</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Smartphone as a tool in acute and sub-acute cardiac care</td>
+                                                <td>Ms. Mahalaxmi Sridhar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Brinton</li>
+                                                        <li> Agnel Yogaraja</li>
+                                                        <li> Amit Kumar</li>
+                                                        <li> Hitesh Pol</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Assistive tool for Blind (Blind Aid)</td>
+                                                <td>Ms. Vaishali Kavathekar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">7</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Rishabh Munjal</li>
+                                                        <li> Calvin Montiero</li>
+                                                        <li> Ashwini Kanekar</li>
+                                                        <li> Annie Renita</li>
+                                                    </ul>
+                                                </td>
+                                                <td>School GIS</td>
+                                                <td>Ms. Vaishali Kavathekar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">8</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Darina Gomes</li>
+                                                        <li> Brian Castelino</li>
+                                                        <li> Firoz Dalwai</li>
+                                                        <li> Joswin Pinto</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Question Paper Generator using AI</td>
+                                                <td>Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Gurdeep Singh</li>
+                                                        <li> Pranav Kud</li>
+                                                        <li> Nawaz Mirza</li>
+                                                        <li> Raunak Gupta</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Automatic Timetable Generator</td>
+                                                <td>Mr. Nilesh Ghavate</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Aditya Bhagwat</li>
+                                                        <li> Daelyn Oliveira</li>
+                                                        <li> Shubham Agrawal</li>
+                                                        <li> Rohit Nair</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Machine Translation Using Deep Learning</td>
+                                                <td>Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Joel Braganza</li>
+                                                        <li> Yash Gupte</li>
+                                                        <li> Gurpreet Singh</li>
+                                                        <li> Nikhita Panchangam</li>
+                                                    </ul>
+                                                </td>
+                                                <td>A Generative adversarial approach to generate Image from text</td>
+                                                <td>Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Abhishek Nair</li>
+                                                        <li> Radhika Patil</li>
+                                                        <li> Aishwarya Sasane</li>
+                                                        <li> Meenal Singh</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Image Captioning</td>
+                                                <td>Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Shraddha Jadhav</li>
+                                                        <li> Rabek Luxa</li>
+                                                        <li> Shraddha Sawant</li>
+                                                        <li> Saurabh Fharande</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Technology to aid Agricultural Marketing</td>
+                                                <td>Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Atashi Khatua</li>
+                                                        <li> Premlata Pawar</li>
+                                                        <li> Madhulika Tadas</li>
+                                                        <li> Jennifer Rodriques</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Medi Assistance using GIS</td>
+                                                <td>Ms. Sushree Satapathy</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Tripathi Ashutosh</li>
+                                                        <li> Yadav Raju</li>
+                                                        <li> Sonkar Pankaj</li>
+                                                        <li> Raj Dhamal</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Water Resource Managment</td>
+                                                <td>Mr. Tayyabali Sayyad</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Fredy Peter</li>
+                                                        <li> Gyanendra Maurya</li>
+                                                        <li> Justin Savio</li>
+                                                        <li> Kevin Lobo</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Multimedia Recommendation System for Education Domain</td>
+                                                <td>Ms. Aruna Khubalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Renita Lobo</li>
+                                                        <li> Harsh Patel</li>
+                                                        <li> Kalpesh Rahate</li>
+                                                        <li> Jasjeet Saini</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Smartphone as a tool in cardiac care-wellness and prevention</td>
+                                                <td>Ms. Mahalaxmi Sridhar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">18</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Arnold Pinto</li>
+                                                        <li> Xenia Crasta</li>
+                                                        <li> Samit Salian</li>
+                                                        <li> Kevin Alva</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Technology aided crop managment</td>
+                                                <td>Ms. Janhavi Baikerikar, Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">19</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Darren Greene</li>
+                                                        <li> Anil Kumar Mahto</li>
+                                                        <li> Prerna Singh</li>
+                                                        <li> Smriti Sharma</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Water pollution report system</td>
+                                                <td>Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">20</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Rohit Pawar</li>
+                                                        <li> Genevieve Xalxo</li>
+
+                                                    </ul>
+                                                </td>
+                                                <td>Devlopment Community GIS:
+                                                    Aplatform for the community to contribute to city devlopment</td>
+                                                <td>Mr. Tayyabali Sayyad</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <div id="2019-2020-yearly" style="width: 100%; height: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            2017 - 2018
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="p-1 ">
+                                        <h6>Project Co-ordinator: Mr. Tayyabali</h6>
+                                    </div>
+
+                                    <table class="table">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">Grp No.</th>
+                                                <th scope="col">Name of Student</th>
+                                                <th scope="col">Title of Project</th>
+                                                <th scope="col">Project Guide</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Aditya Hase</li>
+                                                        <li> Sharanya Hegde</li>
+                                                        <li> Shruti Iyer</li>
+                                                        <li> Divya Mahindrakar</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Question Answering Engine </td>
+                                                <td>Mr. Prasad Padalkar </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Shivam Mishra</li>
+                                                        <li> Yash Kadekodi</li>
+                                                        <li> Manisha Bhat</li>
+                                                        <li> Anubhav Singh</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Simulation of Self Driving Car</td>
+                                                <td> Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Arnab Sanyal</li>
+                                                        <li> Marvell Pereira</li>
+                                                        <li> Rishabh Shetty</li>
+                                                        <li> Omkar Kadam</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Investment Analysis using Event Detection on Alternative Data</td>
+                                                <td> Mrs. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Abdul Faizan</li>
+                                                        <li> Vaibhav Awasthi</li>
+                                                        <li> Ashwini Singh</li>
+                                                        <li> Mubashshir shaikh</li>
+                                                    </ul>
+                                                </td>
+                                                <td> ERP Software for education</td>
+                                                <td> Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Swati Adivarekar</li>
+                                                        <li> Nikhil Ajarekar</li>
+                                                        <li> Sheldon Carvalho</li>
+                                                        <li> Lawrence Fernandes</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Android Foodle App</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Darshan Naik</li>
+                                                        <li> Yogesh Naik</li>
+                                                        <li> Mamta Sawant</li>
+                                                        <li> Shivam Sompura</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Facility Automation Tool</td>
+                                                <td> Mrs. Sunantha K.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">7</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Vinayak Gaonkar</li>
+                                                        <li> Nicholas D'souza</li>
+                                                        <li> Pratik Rane</li>
+                                                        <li> Catherin Johnson</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Development of Community GIS system</td>
+                                                <td> Mr. Tayyabali Sayyad</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">8</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Gaurav Ambavle</li>
+                                                        <li> Rohit Chavan</li>
+                                                        <li> Parth Dubal</li>
+                                                        <li> Omkar Patil</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Personal Budget Planner</td>
+                                                <td> Mrs. Aruna Khubalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Ashish Sharma</li>
+                                                        <li> Raina Lopes</li>
+                                                        <li> Furqan Khan</li>
+                                                        <li> Joel Keerickal</li>
+                                                    </ul>
+                                                </td>
+                                                <td> School GIS</td>
+                                                <td> Mrs.Vaishali Kavthekar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Shailja Jha</li>
+                                                        <li> Neha Tayade</li>
+                                                        <li> Pooja Shejwal</li>
+                                                        <li> Sherlin Shaji</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Travel Planner Application</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Lionel Carneiro</li>
+                                                        <li> Chris Dcruz</li>
+                                                        <li> Clara Jospeh</li>
+                                                        <li> Vanlyn Dcunha</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Compressed Pattern Matching of DNA Sequences</td>
+                                                <td> Miss. Sushree S.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Alfiya Sayyed</li>
+                                                        <li> Swati Sawant</li>
+                                                        <li> Deepika Gurav</li>
+                                                        <li> Gloria Dias</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Diabetes Diet App</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Daksh Gupta</li>
+                                                        <li> Tanvi Pandit</li>
+                                                        <li> Amit Nijsure</li>
+                                                        <li> Nalini Katiyar</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Question Classification into Blooms Category using Machine Learning</td>
+                                                <td> Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Relvis Buthello</li>
+                                                        <li> Anthony Fernandes</li>
+                                                        <li> Brian Dias</li>
+                                                        <li> Savio Jacob</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Development of Prediction Model for Placement of ads using Multi-
+                                                    Armed Bandit</td>
+                                                <td>Mr. Tayyabali Sayyad</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Glanson Oliver</li>
+                                                        <li> Darren Greene</li>
+                                                        <li> Sarabdeep Singh</li>
+                                                        <li> Anilkumar Mahto</li>
+                                                    </ul>
+                                                </td>
+                                                <td> A Security app for Safety During Adverse Situation</td>
+                                                <td> Mrs. Aruna Khubalkar </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Chaitanya Ramaiya</li>
+                                                        <li> Robin Pereira</li>
+                                                        <li> Gladson Oliver</li>
+                                                        <li> Raj Shanghavi</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Performance and Learning pattern based content delivery for online courses</td>
+                                                <td>Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Meghna Patil</li>
+                                                        <li> Bhumi Shetty</li>
+                                                        <li> Gwen D'costa</li>
+                                                        <li> Pavan Tiwari</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Multi-Lingual Android App for new generation of Farmers</td>
+                                                <td> Mr. Nilesh Ghavate</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <div id="2019-2020-yearly" style="width: 100%; height: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            2016 - 2017
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="p-1 ">
+                                        <h6>Project Co-ordinator: Mr. Tayyabali</h6>
+                                    </div>
+
+                                    <table class="table">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">Grp No.</th>
+                                                <th scope="col">Name of Student</th>
+                                                <th scope="col">Title of Project</th>
+                                                <th scope="col">Project Guide</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> D'cruz Nicky Joseph Agnes</li>
+                                                        <li> Chirayath Leo Thomson Leena</li>
+                                                        <li> Dias Steve Menino Diana</li>
+                                                        <li> Pandey Shubham Dayashankar Sadhna</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Diet Expert System</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Dsouza Erina Steven Jessintha</li>
+                                                        <li> Dsouza Joel Doely Gloria</li>
+                                                        <li> Teny Thomas</li>
+                                                        <li> Hawale Asha Rajendra Vanita</li>
+                                                    </ul>
+                                                </td>
+                                                <td> LPG leakage detection system</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Jadhav Krupal Deoram Meenakshi</li>
+                                                        <li> Gupta Deepesh Narendra Ameeta</li>
+                                                        <li> Kundu Kaustubh Tapanendu Arundhati</li>
+                                                        <li> Yadav Sushant Subhash Singh Kavita</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Rubric : A Student Evaluation System</td>
+                                                <td> Mr. Tayyabali S</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Kotian Kavya Bhaskar Vandana</li>
+                                                        <li> Limaye Chirag Sunil Snehal</li>
+                                                        <li> Fernandes Ashwin Alex Maria</li>
+                                                        <li> Manghi Karan Davinder Sudha</li>
+                                                    </ul>
+                                                </td>
+                                                <td> A Machine Learning Approach to Protein Folding Recognition</td>
+                                                <td> Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Bhalerao Deven Ganesh Neeta</li>
+                                                        <li> Jain Manish Shantilal Vasanti</li>
+                                                        <li> Jha Vishal Manoj Ruby</li>
+                                                        <li> Naik Kunal Ghanashyam Rutuja</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Detection of Plagiarism in Software Source Code</td>
+                                                <td> Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Pazhay Sweety Davis Treesa</li>
+                                                        <li> Olivia Joy Lisamma</li>
+                                                        <li> Rodrigues Renita Richard Irene</li>
+                                                        <li> Shinu Raju Shyla</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Dental Helth App</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">7</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Shewde Siddesh Deepak Geeta</li>
+                                                        <li> Balani Vidya Kamlesh Heera</li>
+                                                        <li> Sayyed Farheen Abdul</li>
+                                                        <li> Shettigar Likitha Janardhan Geetha</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Smart phone: Essential element of Telepsychiatric toolkit</td>
+                                                <td> Ms. Mahalaxmi</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">8</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Agarwal Amritha Sukhdev Singh Suman</li>
+                                                        <li> Patel Mansi Pravin Sunita</li>
+                                                        <li> Rodrigues Candida Amnada Nelson J</li>
+                                                        <li> Sam Jincy Saji Jolly</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Intrusion Detection Using Keystroke Dynamics & Fuzzy Logic for Touch Screen Devices</td>
+                                                <td> Ms. Mahalaxmi S</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Mandaliya Pruthvi Bharatbhai Nirmalaben</li>
+                                                        <li> Varma Rakesh Suryalal Nirmla</li>
+                                                        <li> Mohite Swapnil Kailas Manda</li>
+                                                        <li> Khot Suraj Dinkar Jayashree</li>
+                                                    </ul>
+                                                </td>
+                                                <td> An efficient web indexing and web crawling Mini Search Engine</td>
+                                                <td> Ms. Sunantha K.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Kevin John Rachel</li>
+                                                        <li> Kumar Divya Ajay Rani</li>
+                                                        <li> Morris Nelson Johnson Teresa</li>
+                                                        <li> Singh Anjali Arun Usha</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Stocks market prediction using Support Vector Machine</td>
+                                                <td> Ms. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Phadatare Vikrant Madhukar Sujata</li>
+                                                        <li> Menezes Caroline Camil Grecy</li>
+                                                        <li> Dellroy Sequeira</li>
+                                                        <li> Ashish Bhat</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Personalized News Recommendation Based on Click Behavior</td>
+                                                <td> Mr. Tayyabali S</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Desouza Ernest Robroy Euohemiano Elizabeth</li>
+                                                        <li> Alphonso Sueanne Michelle Michael Martha</li>
+                                                        <li> Anjanavelil Abhijit Peter Varsha</li>
+                                                        <li> Vanlyn Dccuna</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Smart Fridge</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Mam Ambika Jawaharlal Pawanlata</li>
+                                                        <li> Nayak Vishesh Ramesh Krupamayee</li>
+                                                        <li> Rohan Joseph Beena</li>
+                                                        <li> Pithawala Zubin Fursosh Preeti</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Anti-Phishing using bigdata</td>
+                                                <td> Ms. Aruna K</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Fernandes Rocia Robert Patricia</li>
+                                                        <li> D'mello Elaine Edward Anita</li>
+                                                        <li> Fernandes Crisbern Catus Geraldine</li>
+                                                        <li> Sharma Smriti Rajendra Sadhana</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Design and implementation of secure and reliable user data storage on cloud</td>
+                                                <td> Mr. Nilesh Ghavate</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Dandekar Kunal Mohan Vandana</li>
+                                                        <li> Deore Apurva Arun Surekha</li>
+                                                        <li> Deorukhkar Yash Atul Archana</li>
+                                                        <li> Mulik Tanaya Ajay Anagha</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Multiple Authentication in open stack</td>
+                                                <td> Mr. Nilesh Ghavate</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Britto Franklin John Padmini</li>
+                                                        <li> Dias Godfrey Aleixo Genevieve</li>
+                                                        <li> Fernandes Llewellyn Rosario Martha</li>
+                                                        <li> Pereira Calida Donald Lizzy</li>
+                                                    </ul>
+                                                </td>
+                                                <td> M2M for utility services</td>
+                                                <td> Ms. Mahalaxmi S.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Rajesh Thakur</li>
+                                                        <li> Sydney Sequeira</li>
+                                                        <li> Kusum Manmote</li>
+                                                        <li> Vikas Jain</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Virtul Reality based 3D Password.</td>
+                                                <td> Vaishali K.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <div id="2019-2020-yearly" style="width: 100%; height: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            2015 - 2016
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="p-1 ">
+                                        <h6>Project Co-ordinator: Mr. Tayyabali</h6>
+                                    </div>
+
+                                    <table class="table">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">Grp No.</th>
+                                                <th scope="col">Name of Student</th>
+                                                <th scope="col">Title of Project</th>
+                                                <th scope="col">Project Guide</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Vidya Jagadale</li>
+                                                        <li> Swapnali Kamble</li>
+                                                        <li> Shraddha Parab</li>
+                                                        <li> </li>
+                                                    </ul>
+                                                </td>
+                                                <td> Location Based Advertisement and information Application</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Steffie Fernandes</li>
+                                                        <li> Esmond D'souza</li>
+                                                        <li> Pramila Almeida</li>
+                                                        <li> Mureil D'souza</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Online auction App</td>
+                                                <td> Ms. Janhavi Baikerikar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Lavina D'souza</li>
+                                                        <li> Jincy Anto</li>
+                                                        <li> Anthony Jacqueline</li>
+                                                        <li> Bryan Lobo</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Zero Knowledge Athentication protocol for e -Voting System</td>
+                                                <td> Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Joy Chalissery</li>
+                                                        <li> George Fernandes</li>
+                                                        <li> Ashish Iyer</li>
+                                                        <li> Lynton</li>
+                                                    </ul>
+                                                </td>
+                                                <td> IP Based sensor networking with contiki OS</td>
+                                                <td> Mr. Tayyabali S.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Viraj Harmalkar</li>
+                                                        <li> Danu K</li>
+                                                        <li> Fay Noronha</li>
+                                                        <li> Leona</li>
+                                                    </ul>
+                                                </td>
+                                                <td> DBIT Project Management Portal</td>
+                                                <td> Ms. Sunantha K.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Jasmine Minj</li>
+                                                        <li> Antara das</li>
+                                                        <li> Ankita Shetty</li>
+                                                        <li> Soumya Ramanathan</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Schedule managment on calendar</td>
+                                                <td> Mr. Uday Nayak</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">7</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Surya Patiyath</li>
+                                                        <li> Shrutika Warang</li>
+                                                        <li> Meha Xavier</li>
+                                                        <li> Renita Raphael</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Big Data analysis on Retails goods</td>
+                                                <td> Ms. Sunantha K.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">8</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Suman Bhowmick</li>
+                                                        <li> Sarah George</li>
+                                                        <li> Juveriya Sayed</li>
+                                                        <li> Neha Tiwari</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Hand Gesture Recognition System</td>
+                                                <td> Vaishali K.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Anib das</li>
+                                                        <li> Parvej Alam</li>
+                                                        <li> Egan Lobo</li>
+                                                        <li> Divya Naik</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Text Compression</td>
+                                                <td> Ms. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Ryan Cardoza</li>
+                                                        <li> Akhil Cherian</li>
+                                                        <li> Sunit Almeida</li>
+                                                        <li> Abhishek Deodhar</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Intrusion Detection system</td>
+                                                <td> Ms. Aruna K.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Dawson Nazareth</li>
+                                                        <li> Rosmi</li>
+                                                        <li> Sheffin Mathew</li>
+                                                        <li> Marsha Sajju</li>
+                                                    </ul>
+                                                </td>
+                                                <td> GEO-FI Track : An Indoor navigation system</td>
+                                                <td> Ms. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Angelin Priyanka</li>
+                                                        <li> Prajakta Patkar</li>
+                                                        <li> Deepali Patil</li>
+                                                        <li> Vikas Jain</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Virtually Controlled Exercise</td>
+                                                <td> Mr. Shiv Negi</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Narendra Vishwakarma</li>
+                                                        <li> Neeraj Yadav</li>
+                                                        <li> Nikhil Dhavale</li>
+                                                        <li> Mohit Nijai</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Essential element of Telepsychiatric toolkit</td>
+                                                <td> Ms. Mahalaxmi S</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Mahesh Kadam</li>
+                                                        <li> Shreyas Kulkarni</li>
+                                                        <li> Balram Verma</li>
+                                                        <li> Vishal Katkar</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Open Data Kit on Android</td>
+                                                <td> Ms. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Abhay Desai</li>
+                                                        <li> Milan Ramani</li>
+                                                        <li> Himanshu Singh</li>
+                                                        <li> Praful Tank</li>
+                                                    </ul>
+                                                </td>
+                                                <td> RFID based Library management System</td>
+                                                <td> Ms. Aruna K</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Yorrick Creado</li>
+                                                        <li> Anish Arora</li>
+                                                        <li> Hardik Jain</li>
+                                                        <li> Sybil Thomas</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Soil testing Device</td>
+                                                <td> Mr. Prasad Padalkar</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Jacqlyn Monteiro</li>
+                                                        <li> Aishwarya Pawar</li>
+                                                        <li> Rugved Rane</li>
+                                                        <li> Sameer Pawar</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Detecting Cardio Vascular Diseases via Pulse Analysis</td>
+                                                <td> Ms. Anagha Shastri</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">18</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Aditya Patel</li>
+                                                        <li> Ammar Shaikh</li>
+                                                        <li> Rohan Kalgutkar</li>
+                                                        <li> Suneet Patil</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Profile Manager</td>
+                                                <td> Mr. Shiv Negi</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">19</th>
+                                                <td>
+                                                    <ul>
+                                                        <li> Arjun Singh</li>
+                                                        <li> Jobin</li>
+                                                        <li> Nitesh</li>
+                                                        <li> Ajay Bhatt</li>
+                                                    </ul>
+                                                </td>
+                                                <td> Laser Keyboard</td>
+                                                <td> Mr. Uday Nayak</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col">
+                                    <div id="2019-2020-yearly" style="width: 100%; height: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+
+    <div class="container bgcol_pri">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-muted">&copy; 2021 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook" />
+                        </svg></a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+    <!-- scripts start  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script src="nav.js"></script>
+    <!-- scripts end  -->
+</body>
+
+</html>
