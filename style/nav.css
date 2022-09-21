@@ -1,5 +1,10 @@
 :root{
     --primary_color : #119100;
+    --top_nav_text : white;
+}
+
+.top-nav-text:hover {
+    color: var(--top_nav_text);
 }
 
 .navbar{
@@ -9,7 +14,42 @@
 .dropend > .dropdown-toggle::after{
     position: absolute;
     right: 1rem;
-    top: 0.65rem;
+    top: 1.5rem;
+}
+
+.offcanvas-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* background: #d3fce4; */
+}
+
+.offcanvas-nav li {
+    display: block;
+    position: relative;
+    /* float: left; */
+    /* background: #d3fce4; */
+}
+
+.offcanvas-body li ul li {
+    border-top: 0;
+}
+
+.offcanvas-nav li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #000;
+}
+
+.offcanvas-body li ul {
+    padding: 0;
+    border: none;
+}
+
+.offcanvas-nav li a:hover {
+    background: #5ade2a;
 }
 
 @media (max-width: 1200px){
@@ -58,35 +98,10 @@
     }
 }
 
+
 /* Stuff Alston added */
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #d3fce4;
-}
-ul li {
-    display: block;
-    position: relative;
-    float: left;
-    background: #d3fce4;
-}
-
-li ul { 
-    display: none; 
-}
-ul li a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    white-space: nowrap;
-    color: #000;
-}
-ul li a:hover {
-    background: #2c3e50;
-}
-
+/* 
 li:hover > ul {
     display: block;
     position: absolute;
@@ -111,9 +126,9 @@ ul ul ul {
 
 ul:before,
 ul:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " "; 
+    display: table;
 }
 ul:after { 
     clear: both; 
-}
+} */
