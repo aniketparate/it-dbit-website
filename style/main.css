@@ -2,6 +2,9 @@
     background-color: #e4e4e7;
 }
 
+.table-bg-colour{
+    color: #69BA5E;
+}
 .scroll-container {
     overflow: hidden;
 }
@@ -45,3 +48,4 @@
         display: none;
     }
 }
+

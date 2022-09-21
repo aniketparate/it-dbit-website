@@ -4,11 +4,12 @@
 }
 
 .top-nav-text:hover {
-    color: var(--top_nav_text);
+    color: var(--primary_color);
+    text-decoration: underline;
 }
 
 .navbar{
-    background-color: var(--primary_color);
+    background-color: #F8F9FA;
 }
 
 .dropend > .dropdown-toggle::after{
@@ -49,7 +50,7 @@
 }
 
 .offcanvas-nav li a:hover {
-    background: #5ade2a;
+    background: #69BA5E;
 }
 
 @media (max-width: 1200px){

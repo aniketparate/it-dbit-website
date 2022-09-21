@@ -16,37 +16,43 @@
     />
     <!-- <link rel="stylesheet" href="main.css"> -->
     <link rel="stylesheet" href="../style/nav.css" />
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="about.css" /> 
     <link rel="stylesheet" href="../style/footer.css" />
     <!-- <link rel="stylesheet" href="../style/main.css" /> -->
     <title>DBIT IT</title>
+    <!-- <script src="../temp.js" defer></script> -->
   </head>
-  <body class="bg-secondary">
-    <div class="container-fluid">
+  <body class="bg-color">
+    <div id="navbar">
+      <div class="container-fluid">
       <div class="row">
         <nav class="navbar bgcol_pri navbar-expand-sm nav-hide">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">DBIT Home</a>
+                <a class="nav-link top-nav-text" aria-current="page" href="#">DBIT Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Parent Login</a>
+                <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
+                  >Parent Login</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Alumni</a>
+                <a class="nav-link top-nav-text" href="https://alumni.dbit.in/">Alumni</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Moodle</a>
+                <a class="nav-link top-nav-text" href="https://moodle.dbit.in/">Moodle</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">E-Learn</a>
+                <a class="nav-link top-nav-text" href="https://elearn.dbit.in/">E-Learn</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Library</a>
+                <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">DBCL Drive</a>
+                <a class="nav-link top-nav-text" href="https://dbcldrive.dbit.in/"
+                  >DBCL Drive</a
+                >
               </li>
             </ul>
           </div>
@@ -86,16 +92,12 @@
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
-                <a class="nav-link" aria-current="page" href="/index.html"
-                  >HOME</a
-                >
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link active" href="/aboutus/aboutus.html"
-                  >ABOUT US</a
-                >
+                <a class="nav-link" href="/aboutus/aboutus.html">ABOUT US</a>
               </li>
               <li class="nav-item dropdown text-center">
                 <a
@@ -109,7 +111,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">Academic Calender</a>
+                    <a class="dropdown-item" href="academics/academic-calendar.html">Academic Calender</a>
                   </li>
                   <li><a class="dropdown-item" href="#">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="#">Timetable</a></li>
@@ -185,11 +187,42 @@
                       >Academic Advisory Board</a
                     >
                   </li>
-                  <li><a class="dropdown-item" href="#">Faculty Profile</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Faculty Profile</a></li> -->
                 </ul>
               </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="#">RECOGNITION</a>
+              <li class="nav-item dropdown text-center">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  FACULTY
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Profile</a>
+                  </li>
+                  <li><a class="dropdown-item" href="recognition.html">Recognition</a></li>
+                  <li class="dropend drop-down">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Research
+                    </a>
+                    <ul class="dropdown-menu sub-menu">
+                      <li>
+                        <a class="dropdown-item" href="">Game Of Codes</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item dropdown text-center">
                 <a
@@ -204,9 +237,45 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Undergraduate Projects</a>
+                    <a class="dropdown-item" href="">Time Table</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Recognition</a></li>
+                  <li><a class="dropdown-item" href="students/recognition.html">Recognition</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown text-center">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  EXAMINATION
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="students/undergraduate-project.html">Undergraduate Projects</a>
+                  </li>
+                  <li class="dropend drop-down">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                        Rank Holders
+                    </a>
+                    <ul class="dropdown-menu sub-menu">
+                      <li>
+                        <a class="dropdown-item" href="">Internal Assesment</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">MU Examination</a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -220,7 +289,7 @@
                   CO-CURRICULAR ACTIVITIES
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                  <li><a class="dropdown-item" href="">Newsletter</a></li>
                   <li class="dropend drop-down">
                     <a
                       class="dropdown-item dropdown-toggle"
@@ -290,77 +359,132 @@
                 </ul>
               </li>
             </ul>
+            <!-- <ul class="main-navigation">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">ACADEMICS</a>
+                <ul>
+                  <li><a href="#">Academic Calender</a></li>
+                  <li><a href="#">Exam Timetable</a></li>
+                  <li><a href="#">Timetable</a></li>
+                  <li><a href="#">Syllabus</a>
+                    <ul>
+                      <li><a href="#">Second Year</a>
+                        <ul>
+                          <li><a href="#">SEIT-C Scheme</a></li>
+                          <li><a href="#">SEIT-CBCGS</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Third Year</a>
+                        <ul>
+                          <li><a href="#">TEIT-C Scheme</a></li>
+                          <li><a href="#">TEIT-CBCGS</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">FInal Year</a>
+                        <ul>
+                          <li><a href="#">SEIT-CBCS</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Academic Advisory Board</a></li>
+                  <li><a href="#">Faculty Profile</a></li>
+                </ul>
+              </li>
+              <li><a href="#">RECOGNITION</a></li>
+              <li><a href="#">STUDENTS</a>
+                <ul>
+                  <li><a href="#">Undergraduate Projects</a></li>
+                  <li><a href="#">Recognition</a></li>
+                </ul>
+              </li>
+              <li><a href="#">CO-CURRICULAR ACTIVITIES</a>
+                <ul>
+                  <li><a href="./cocurricular/newsletter/newsletter.html">Newsletter</a></li>
+                  <li><a href="#">Events</a>
+                    <ul>
+                      <li><a href="#">Game Of Codes</a></li>
+                      <li><a href="#">Mumbai Hackathon</a></li>
+                      <li><a href="#">Innovex</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">CSI</a></li>
+                  <li><a href="#">Student Club</a>
+                    <ul>
+                      <li><a href="#">AI Club</a></li>
+                      <li><a href="#">Web Development</a></li>
+                    </ul>
+                  </li>        
+                </ul>
+              </li>
+              <li><a href="#">PLACEMENT & INTERNSHIP</a>
+                <ul>
+                  <li><a href="#">Internship Record</a></li>
+                  <li><a href="#">Placement Record</a></li>
+                </ul>
+              </li>
+            </ul> -->
           </div>
         </div>
       </nav>
     </header>
+    </div>
     <br />
 
     <div class="container-fluid">
-      <div class="main-head">
-        <h2>Our Vision and Mission</h2>
+      <div class="container-fluid p-5">
+        <div class="main-head">
+          <h2>Don Bosco Institute</h2>
+          <h2>Vision and Mission</h2>
+          <br><br>
+          <h4>Vision</h4>
+          <p>
+            DBIT will be known to have an innovative, enjoyable and holistic learning environment that enhances individual success, the Don Bosco way. We seek to make DBIT the preferred choice of students, employers hiring engineering graduates and practitioners seeking further education.
+          </p>
+          <br>
+          <h4>Mission</h4>
+          <p>
+            We aim to provide service in the best tradition of Don Bosco, by seeking to develop entrepreneurial attitude and social commitment in every student we train. DBIT will make a contribution to society through its educative process in a diverse and stimulating learning environment wherein students, faculty and staff can strive and grow.
+          </p>
+          <br>
+          <h4>Objectives</h4>
+          <ul>
+            <li>To produce engineers who will excel in industry and research.</li>
+            <li>To provide consultancy to various industries.</li>
+            <li>To provide programmes which are contemporary and relevant to industry.</li>
+            <li>To share expertise and resources for the benefit of underprivileged youth of local communities.</li>
+            <li>To be a center of research and development in the field of technology.</li>
+            <li>To gain recognition in the field of technical education, both nationally and internationally.</li>
+          </ul>
+        </div>
+        <br>
+        
+        <div class="main-head">
+          <h2>Department Vision & Mission</h2>
+          <h4>Vision</h4>
+          <br><br>
+          
+          <br>
+          <h4>Mission</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores
+            expedita et natus rem porro doloremque quis. Aliquid dolores voluptas
+            accusantium nulla, cumque delectus beatae quam veniam ut eum quibusdam
+            nesciunt iusto cum eaque dolore quaerat ratione molestias dolor odit?
+          </p>
+          <br>
+        </div>
+        <br><br>
+
+      </div>
+
+
+      <div class="panel-head">
       </div>
       <br />
 
       <div class="panel-head">
-        <h4>Vision</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex
-          delectus autem voluptates tenetur fugit unde sed blanditiis, cum nisi
-          atque illo quod voluptatibus commodi dolorum deserunt asperiores dicta
-          itaque.
-        </p>
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Mission</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores
-          expedita et natus rem porro doloremque quis. Aliquid dolores voluptas
-          accusantium nulla, cumque delectus beatae quam veniam ut eum quibusdam
-          nesciunt iusto cum eaque dolore quaerat ratione molestias dolor odit?
-        </p>
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Objectives</h4>
-        <ul>
-          <li>point 1</li>
-          <li>point 2</li>
-          <li>point 3</li>
-          <li>point 4</li>
-          <li>point 5</li>
-          <li>point 6</li>
-        </ul>
-      </div>
-      <br />
-
-      <div class="main-head">
-        <h2>Department's Vision and Mission</h2>
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Vision</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex
-          delectus autem voluptates tenetur fugit unde sed blanditiis, cum nisi
-          atque illo quod voluptatibus commodi dolorum deserunt asperiores dicta
-          itaque.
-        </p>
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Mission</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores
-          expedita et natus rem porro doloremque quis. Aliquid dolores voluptas
-          accusantium nulla, cumque delectus beatae quam veniam ut eum quibusdam
-          nesciunt iusto cum eaque dolore quaerat ratione molestias dolor odit?
-        </p>
       </div>
       <br />
 
@@ -461,5 +585,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="nav.js"></script>
+    <script src ="/temp.js"></script>
   </body>
 </html>

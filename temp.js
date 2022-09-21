@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="/style/main.css" />
-    <link rel="stylesheet" href="/style/footer.css" />
-    <link rel="stylesheet" href="/style/nav.css" />
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>DBIT IT</title>
-  </head>
-  <body class="bg-color">
 
-    <div class="container-fluid">
+let nav = document.getElementById('navbar');
+
+
+nav.innerHTML = `<div class="container-fluid">
       <div class="row">
         <nav class="navbar bgcol_pri navbar-expand-sm nav-hide">
           <div class="container-fluid justify-content-center">
@@ -92,7 +72,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
               </li>
               <li class="nav-item text-center">
                 <a class="nav-link" href="/aboutus/aboutus.html">ABOUT US</a>
@@ -100,7 +80,6 @@
               <li class="nav-item dropdown text-center">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -109,10 +88,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">Academic Calender</a>
+                    <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Exam Timetable</a></li>
-                  <li><a class="dropdown-item" href="#">Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li class="dropend drop-down">
                     <a
                       class="dropdown-item dropdown-toggle"
@@ -185,7 +164,7 @@
                       >Academic Advisory Board</a
                     >
                   </li>
-                  <li><a class="dropdown-item" href="#">Faculty Profile</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Faculty Profile</a></li> -->
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -203,7 +182,7 @@
                   <li>
                     <a class="dropdown-item" href="#">Profile</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Recognition</a></li>
+                  <li><a class="dropdown-item" href="recognition.html">Recognition</a></li>
                   <li class="dropend drop-down">
                     <a
                       class="dropdown-item dropdown-toggle"
@@ -235,9 +214,9 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Time Table</a>
+                    <a class="dropdown-item" href="">Time Table</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Recognition</a></li>
+                  <li><a class="dropdown-item" href="students/recognition.html">Recognition</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -253,7 +232,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Undergraduate Projects</a>
+                    <a class="dropdown-item" href="students/undergraduate-project.html">Undergraduate Projects</a>
                   </li>
                   <li class="dropend drop-down">
                     <a
@@ -287,45 +266,9 @@
                   CO-CURRICULAR ACTIVITIES
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Newsletter</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Events
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li>
-                        <a class="dropdown-item" href="">Game Of Codes</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="">Mumbai Hackathon</a>
-                      </li>
-                      <li><a class="dropdown-item" href="">Innovex</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item" href="#">CSI</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Student Club
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li><a class="dropdown-item" href="#">AI Club</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Web Development</a>
-                      </li>
-                    </ul>
-                  </li>
+                <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -399,7 +342,7 @@
               </li>
               <li><a href="#">CO-CURRICULAR ACTIVITIES</a>
                 <ul>
-                  <li><a href="#">Newsletter</a></li>
+                  <li><a href="./cocurricular/newsletter/newsletter.html">Newsletter</a></li>
                   <li><a href="#">Events</a>
                     <ul>
                       <li><a href="#">Game Of Codes</a></li>
@@ -426,141 +369,4 @@
           </div>
         </div>
       </nav>
-    </header>
-
-    <main class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="row col-lg-8 p-3 m-">
-            <table class="table">
-                <thead class="table-dark">
-                  <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Designation</th>
-                    <th scope="col">Area of Specialization</th>
-                    <th scope="col">email</th>
-                    <th scope="col">resume</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">View</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Anagha Shastri</td>
-                    <td>Assistant Proffesor</td>
-                    <td>Programming & Algorithms <br>Project Management <br>Application Development <br>Image Processing & Web Mining</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Vaishali Kavathekar</td>
-                    <td>Assistant Proffesor</td>
-                    <td>Image </td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                  <tr>
-                    <td>Ms Janhavi Baikerikar</td>
-                    <td>Head of Department</td>
-                    <td>@Electronics</td>
-                    <td>janhavi.dbit@dbclmumbai.org</td>
-                    <td><a href="">view</a></td>
-                  </tr>
-                </tbody>
-              </table>
-
-    <div id = "navbar">
-
-        </div>
-      </div>
-    </main>
-
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md d-flex align-items-center">
-          <span class="text-muted"
-            >&copy; Don Bosco Institute Of Technology Designed & Maintained by
-            Website team</span
-          >
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-facebook footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-youtube footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-
-            <a class="text-muted" href="#" 
-              ><i class="bi bi-instagram footer-icon"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="nav.js"></script>
-
-    <script src="temp.js"></script>
-
-  </body>
-</html>
+    </header>`
