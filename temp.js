@@ -1,30 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <!-- <link rel="stylesheet" href="main.css"> -->
-    <link rel="stylesheet" href="../style/nav.css" />
-    <link rel="stylesheet" href="about.css" /> 
-    <link rel="stylesheet" href="../style/footer.css" />
-    <!-- <link rel="stylesheet" href="../style/main.css" /> -->
-    <title>DBIT IT</title>
-    <!-- <script src="../temp.js" defer></script> -->
-  </head>
-  <body class="bg-color">
-    <div id="navbar">
-      <div class="container-fluid">
+
+let nav = document.getElementById('navbar');
+
+
+nav.innerHTML = `<div class="container-fluid">
       <div class="row">
         <nav class="navbar bgcol_pri navbar-expand-sm nav-hide">
           <div class="container-fluid justify-content-center">
@@ -94,7 +72,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 offcanvas-nav">
               <li class="nav-item text-center">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
               </li>
               <li class="nav-item text-center">
                 <a class="nav-link" href="/aboutus/aboutus.html">ABOUT US</a>
@@ -102,7 +80,6 @@
               <li class="nav-item dropdown text-center">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -111,10 +88,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="academics/academic-calendar.html">Academic Calender</a>
+                    <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Exam Timetable</a></li>
-                  <li><a class="dropdown-item" href="#">Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li class="dropend drop-down">
                     <a
                       class="dropdown-item dropdown-toggle"
@@ -289,45 +266,9 @@
                   CO-CURRICULAR ACTIVITIES
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="">Newsletter</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Events
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li>
-                        <a class="dropdown-item" href="">Game Of Codes</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="">Mumbai Hackathon</a>
-                      </li>
-                      <li><a class="dropdown-item" href="">Innovex</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item" href="#">CSI</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Student Club
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li><a class="dropdown-item" href="#">AI Club</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Web Development</a>
-                      </li>
-                    </ul>
-                  </li>
+                <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -428,163 +369,4 @@
           </div>
         </div>
       </nav>
-    </header>
-    </div>
-    <br />
-
-    <div class="container-fluid">
-      <div class="container-fluid p-5">
-        <div class="main-head">
-          <h2>Don Bosco Institute</h2>
-          <h2>Vision and Mission</h2>
-          <br><br>
-          <h4>Vision</h4>
-          <p>
-            DBIT will be known to have an innovative, enjoyable and holistic learning environment that enhances individual success, the Don Bosco way. We seek to make DBIT the preferred choice of students, employers hiring engineering graduates and practitioners seeking further education.
-          </p>
-          <br>
-          <h4>Mission</h4>
-          <p>
-            We aim to provide service in the best tradition of Don Bosco, by seeking to develop entrepreneurial attitude and social commitment in every student we train. DBIT will make a contribution to society through its educative process in a diverse and stimulating learning environment wherein students, faculty and staff can strive and grow.
-          </p>
-          <br>
-          <h4>Objectives</h4>
-          <ul>
-            <li>To produce engineers who will excel in industry and research.</li>
-            <li>To provide consultancy to various industries.</li>
-            <li>To provide programmes which are contemporary and relevant to industry.</li>
-            <li>To share expertise and resources for the benefit of underprivileged youth of local communities.</li>
-            <li>To be a center of research and development in the field of technology.</li>
-            <li>To gain recognition in the field of technical education, both nationally and internationally.</li>
-          </ul>
-        </div>
-        <br>
-        
-        <div class="main-head">
-          <h2>Department Vision & Mission</h2>
-          <h4>Vision</h4>
-          <br><br>
-          
-          <br>
-          <h4>Mission</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores
-            expedita et natus rem porro doloremque quis. Aliquid dolores voluptas
-            accusantium nulla, cumque delectus beatae quam veniam ut eum quibusdam
-            nesciunt iusto cum eaque dolore quaerat ratione molestias dolor odit?
-          </p>
-          <br>
-        </div>
-        <br><br>
-
-      </div>
-
-
-      <div class="panel-head">
-      </div>
-      <br />
-
-      <div class="panel-head">
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Program Educational Objectives</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex
-          delectus autem voluptates tenetur fugit unde sed blanditiis, cum nisi
-          atque illo quod voluptatibus commodi dolorum deserunt asperiores dicta
-          itaque.
-        </p>
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Program Specific Outcome</h4>
-        <ol>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-          <li>some outcome</li>
-        </ol>
-      </div>
-      <br />
-
-      <div class="panel-head">
-        <h4>Course Outcomes</h4>
-        <table>
-          <tr>
-            <th>Academic Year</th>
-            <th>Semesters</th>
-            <th>Course Outcome Statements</th>
-          </tr>
-          <tr>
-            <td>2022-2023</td>
-            <td>EVEN/ODD</td>
-            <td>view</td>
-          </tr>
-          <tr>
-            <td>2021-2022</td>
-            <td>EVEN/ODD</td>
-            <td>view</td>
-          </tr>
-          <tr>
-            <td>2020-2021</td>
-            <td>EVEN/ODD</td>
-            <td>view</td>
-          </tr>
-          <tr>
-            <td>2019-2020</td>
-            <td>EVEN/ODD</td>
-            <td>view</td>
-          </tr>
-        </table>
-      </div>
-      <br />
-    </div>
-
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md d-flex align-items-center">
-          <span class="text-muted"
-            >&copy; Don Bosco Institute Of Technology Designed & Maintained by
-            Website team</span
-          >
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-facebook footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-youtube footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-instagram footer-icon"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="nav.js"></script>
-    <script src ="/temp.js"></script>
-  </body>
-</html>
+    </header>`

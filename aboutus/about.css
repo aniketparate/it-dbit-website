@@ -1,12 +1,13 @@
 h2{
     color: black;
     text-align: center;
+    text-decoration: underline;
 }
 
 .main-head{
     background-color: #eeeeee;
     padding: 2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     border-radius: 5px;
 }
 
