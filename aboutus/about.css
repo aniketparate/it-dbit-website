@@ -11,26 +11,19 @@ h2{
     border-radius: 5px;
 }
 
-.panel-head{
-    background-color: #eeeeee;
-    border-radius: 5px;
-    border: 10px;
-    border-color: black;
-    padding: 1rem;
-}
 
 h4{
     text-decoration: underline;
 }
 
 table {
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     width: 100%;
-  }
+}
   
-  th, td {
-    text-align: left;
+th, td {
+    text-align: center;
     padding: 8px;
-  }
+}
   
   tr:nth-child(even) {background-color: #f2f2f2;}
