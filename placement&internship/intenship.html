@@ -14,21 +14,29 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
+    <style>
+        @media (max-width: 630px){
+            .pie-chart{
+                display: none;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="../style/nav.css" />
     <link rel="stylesheet" href="../style/main.css" />
     <link rel="stylesheet" href="../style/footer.css" />
-    <title>Internship Record</title>
     <script src="../temp.js" defer></script>
+    <title>Internship Record</title>
   </head>
   <body class="bg-white">
     <div id="navbar"></div>
 
     <main>
-      <div class="row px-5 m-0">
+      <div class="row px-lg-5 m-0">
         <div class="row justify-content-center text-center p-3">
           <h1>Internship Records</h1>
         </div>
         <div class="row">
+          <div class="table-responsive">
           <div class="col">
             <table class="table table-bordered">
               <thead class="table-dark">
@@ -121,7 +129,8 @@
               </tbody>
             </table>
           </div>
-          <div class="col">
+        </div>
+          <div class="col pie-chart">
             <div id="2017internship" style="height: 30rem"></div>
           </div>
         </div>
