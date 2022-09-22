@@ -25,46 +25,84 @@
     <div id="navbar"></div>
     <main class="container-fluid">
       <div class="row justify-content-center">
-        <div class="container">
-          <div class="row col-lg-8">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+        <div class="row my-3 mx-4 py-3 bg-light">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide justify-content-center"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../assets/slideshow/pic1.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                src="../assets/slideshow/pic2.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                src="../assets/slideshow/pic3.jpg"
+                  class="d-block w-100"
+                  style="object-fit: cover; height: 400px"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden"></span>
+            </button>
           </div>
         </div>
         <div class="row col-lg-10 p-3 m-">
@@ -100,21 +138,33 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
+                        <td>2017-2018</td>
+                        <td>Community based DP for Mumbai</td>
+                        <td>
+                          <td>Mr Tayyabali Sayyad (PI)</td>
+                          <td>Mr Nilesh Ghavate (CO-PI)</td>
+                        </td>
                         <td>@mdo</td>
                       </tr>
                       <tr>
-                        <th scope="row">2</th>
                         <td>Jacob</td>
                         <td>Thornton</td>
                         <td>@fat</td>
                       </tr>
                       <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
                       </tr>
                     </tbody>
                   </table>
@@ -131,7 +181,7 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Nominations
+                  Smart India Hackathon
                 </button>
               </h2>
               <div
@@ -141,35 +191,102 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="row">
+                    <div class="col-md-4">
+                      
+                      <table class="table">
+                        <thead class="table-dark">
+                          <div class="row justify-content-center text-center">
+                        <p>2017-2018</p>
+                      </div>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-md-4">
+                      <table class="table">
+                        <thead class="table-dark">
+                          <div class="row justify-content-center text-center">
+                        <p>2017-2018</p>
+                      </div>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-md-4">
+                      <table class="table">
+                        <thead class="table-dark">
+                          <div class="row justify-content-center text-center">
+                        <p>2017-2018</p>
+                      </div>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                          <tr>
+                            <td >Awards</td>
+                            <td >Persistent Innovation Award</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

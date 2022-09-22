@@ -92,73 +92,7 @@ nav.innerHTML = `<div class="container-fluid">
                   </li>
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Syllabus
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li class="dropend drop-down">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Second Year
-                        </a>
-                        <ul class="dropdown-menu sub-menu">
-                          <li>
-                            <a class="dropdown-item" href="#">SEIT-C Scheme</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">SEIT-CBCGS</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropend drop-down">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Third Year
-                        </a>
-                        <ul class="dropdown-menu sub-menu">
-                          <li>
-                            <a class="dropdown-item" href="#">TEIT-CBCS</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">TEIT-C Scheme</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropend drop-down">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Final Year
-                        </a>
-                        <ul class="dropdown-menu sub-menu">
-                          <li>
-                            <a class="dropdown-item" href="#">BEIT-CBCS</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
+                  <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">

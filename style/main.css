@@ -49,3 +49,8 @@
     }
 }
 
+/* Custom Table css */
+
+.table > tbody > tr:last-child{
+    border-color: white !important;
+}
