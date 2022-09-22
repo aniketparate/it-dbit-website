@@ -159,12 +159,6 @@ nav.innerHTML = `<div class="container-fluid">
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Academic Advisory Board</a
-                    >
-                  </li>
-                  <!-- <li><a class="dropdown-item" href="#">Faculty Profile</a></li> -->
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -180,25 +174,9 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="/faculty/faculty_profile.html">Profile</a>
                   </li>
-                  <li><a class="dropdown-item" href="recognition.html">Recognition</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Research
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li>
-                        <a class="dropdown-item" href="">Game Of Codes</a>
-                      </li>
-                    </ul>
-                  </li>
+                  <li><a class="dropdown-item" href="/faculty/faculty_recognition.html">Recognition</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -214,45 +192,9 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="">Time Table</a>
+                    <a class="dropdown-item" href="/students/undergraduate-project.html">Under Graduate Projects</a>
                   </li>
-                  <li><a class="dropdown-item" href="students/recognition.html">Recognition</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown text-center">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  EXAMINATION
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="students/undergraduate-project.html">Undergraduate Projects</a>
-                  </li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                        Rank Holders
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li>
-                        <a class="dropdown-item" href="">Internal Assesment</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="">MU Examination</a>
-                      </li>
-                    </ul>
-                  </li>
+                  <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -300,72 +242,6 @@ nav.innerHTML = `<div class="container-fluid">
                 </ul>
               </li>
             </ul>
-            <!-- <ul class="main-navigation">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">ACADEMICS</a>
-                <ul>
-                  <li><a href="#">Academic Calender</a></li>
-                  <li><a href="#">Exam Timetable</a></li>
-                  <li><a href="#">Timetable</a></li>
-                  <li><a href="#">Syllabus</a>
-                    <ul>
-                      <li><a href="#">Second Year</a>
-                        <ul>
-                          <li><a href="#">SEIT-C Scheme</a></li>
-                          <li><a href="#">SEIT-CBCGS</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Third Year</a>
-                        <ul>
-                          <li><a href="#">TEIT-C Scheme</a></li>
-                          <li><a href="#">TEIT-CBCGS</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">FInal Year</a>
-                        <ul>
-                          <li><a href="#">SEIT-CBCS</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Academic Advisory Board</a></li>
-                  <li><a href="#">Faculty Profile</a></li>
-                </ul>
-              </li>
-              <li><a href="#">RECOGNITION</a></li>
-              <li><a href="#">STUDENTS</a>
-                <ul>
-                  <li><a href="#">Undergraduate Projects</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </ul>
-              </li>
-              <li><a href="#">CO-CURRICULAR ACTIVITIES</a>
-                <ul>
-                  <li><a href="./cocurricular/newsletter/newsletter.html">Newsletter</a></li>
-                  <li><a href="#">Events</a>
-                    <ul>
-                      <li><a href="#">Game Of Codes</a></li>
-                      <li><a href="#">Mumbai Hackathon</a></li>
-                      <li><a href="#">Innovex</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">CSI</a></li>
-                  <li><a href="#">Student Club</a>
-                    <ul>
-                      <li><a href="#">AI Club</a></li>
-                      <li><a href="#">Web Development</a></li>
-                    </ul>
-                  </li>        
-                </ul>
-              </li>
-              <li><a href="#">PLACEMENT & INTERNSHIP</a>
-                <ul>
-                  <li><a href="#">Internship Record</a></li>
-                  <li><a href="#">Placement Record</a></li>
-                </ul>
-              </li>
-            </ul> -->
           </div>
         </div>
       </nav>
