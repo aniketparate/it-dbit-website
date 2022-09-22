@@ -4,3 +4,7 @@
     /* text-decoration: underline; */
     border-radius: 5px;
 }
+
+.pdf-iframe-height {
+    height: 100vh;
+}
